@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         listView.setAdapter(arrayAdapter);
         listView.setOnItemClickListener(this);
         //수정 push
+        //저도 수정 - 김정아
 
     }
 
