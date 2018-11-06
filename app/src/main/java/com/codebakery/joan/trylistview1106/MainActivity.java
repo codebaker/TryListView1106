@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         ListView listView = (ListView) findViewById(R.id.listView);
         listView.setAdapter(arrayAdapter);
         listView.setOnItemClickListener(this);
+        //수정 push
 
     }
 
