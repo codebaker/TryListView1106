@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String[] FRUITS = new String[]{"Apple","Abocado","Banana","Blueberry"};
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this,R.layout.listview_single_culumn,FRUITS);
+        String[] FRUITSS = new String[]{"Apple","Abocado","Banana","Blueberry"};
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this,R.layout.listview_single_culumn,FRUITSS);
         ListView listView = (ListView) findViewById(R.id.listView);
         listView.setAdapter(arrayAdapter);
         listView.setOnItemClickListener(this);
